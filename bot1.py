@@ -5,7 +5,7 @@ import time
 
 from PIL import Image
 
-TOKEN = "5840286193:AAGRhqaFOAZE7x-FjWioctCLhpUTCUi6S2w"
+TOKEN = "YOUR TELEGRAM TOKEN"
 
 def get_updates():
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
